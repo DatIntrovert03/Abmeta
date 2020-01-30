@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="Immaculate_detergent_system.My.MySettings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <connectionStrings>
+        <add name="Immaculate_detergent_system.My.MySettings.SME_SYSTEM11ConnectionString"
+            connectionString="Provider=Microsoft.Jet.OLEDB.4.0;Data Source=&quot;|DataDirectory|\SME SYSTEM11.mdb&quot;"
+            providerName="System.Data.OleDb" />
+    </connectionStrings>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7.2" />
+    </startup>
+    <userSettings>
+        <Immaculate_detergent_system.My.MySettings>
+            <setting name="Username" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="password" serializeAs="String">
+                <value />
+            </setting>
+        </Immaculate_detergent_system.My.MySettings>
+    </userSettings>
+</configuration>

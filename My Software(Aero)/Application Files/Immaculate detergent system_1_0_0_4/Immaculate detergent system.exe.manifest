@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Immaculate detergent system.exe" version="1.0.0.4" publicKeyToken="72ab6b12f34e8810" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Double-J-Design-Apple-Festival-App-stock.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Immaculate detergent system" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Immaculate detergent system.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Immaculate detergent system.exe" size="700888">
+      <assemblyIdentity name="Immaculate detergent system" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JsXnG0iqq+2P9XX8o4jRTC61I055/AZCg/RkuTGE3yU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Double-J-Design-Apple-Festival-App-stock.ico" size="177271">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>lvSO+CoRl1SsA6l9p1AR2C169jFBqk8xF25iwARQKKg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Immaculate detergent system.exe.config" size="1373">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JqU0sNnwYSqfWGmi0lUrZSsBvaCr1SPiYq/0LNa33Jw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="SME SYSTEM11.mdb" size="507904" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Z3Cvj9B8a6PvQ/yr0cTwBwrqwfONsWeV/gN8q9ytrI0=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ABDULMHETA\muchenga" issuerKeyHash="d07939aac684af0758d58ce213c1dec461dabc6f" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5RWnjN9CCL+MLubUBZ0sAGoetZbHEjDSmWQ55LQqDWI=</DigestValue></Reference></SignedInfo><SignatureValue>A7GepOiYKDj0IBXJKnLAUjY72iceUN0z9Zw8wUmkKyRmGL7nM580LgaMwMIoHiBoGRFCxrr270lCV4mLDSKnZaA1zAueqDOa7PlTpy2dl35cI0vfpv0gwcA17mJqbUkMYVJbB3ghFemwY6rCUHuZbN/6JG+gH2DOzypsSgLlk/U=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zyOftYtq+aTlWlPkgXZAqAwUb+D1YbJZXpLyK0vVKvUuwR+D+u4DhL0Qj4bKzlUVSrzDf8QhA2GYEXk6XWOsCxnlVFhWT/eVTPM+1QkrF/gJXh9fg8xwvxuOH6eks9B/hU9WR6hy9SmTxXXhd7GZTY3SrNcJghB7Dn1ES0HTj40=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="620d2ab4e4396499d23012c796b51e6a002c9d05d4e62e8cbf0842df8ca715e5" Description="" Url=""><as:assemblyIdentity name="Immaculate detergent system.exe" version="1.0.0.4" publicKeyToken="72ab6b12f34e8810" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ABDULMHETA\muchenga</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>x7SqzPcK76mZ7N6sM/oXzX5Bom7L4+jJkXrhddw5B7U=</DigestValue></Reference></SignedInfo><SignatureValue>nRjHdFddGcdyzyTSS7MXRMhUGW/0yKwE0Ix56DUX55WGmAA+O3ZnqKMNwaVXWa+EtKUjUvPqjQaZEPDHkhbyAlBdYgyv27foCc46QJtneDzrPvYJ9qxl8nry9ey0m/NJ6dev4gBSpADhflQfSFXZOvLE5liHlMsgou3hb7Xa2EQ=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zyOftYtq+aTlWlPkgXZAqAwUb+D1YbJZXpLyK0vVKvUuwR+D+u4DhL0Qj4bKzlUVSrzDf8QhA2GYEXk6XWOsCxnlVFhWT/eVTPM+1QkrF/gJXh9fg8xwvxuOH6eks9B/hU9WR6hy9SmTxXXhd7GZTY3SrNcJghB7Dn1ES0HTj40=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB5TCCAU6gAwIBAgIQTQsFSOBFoqRBVTGMzSuTejANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQDHiYAQQBCAEQAVQBMAE0ASABFAFQAQQBcAG0AdQBjAGgAZQBuAGcAYTAeFw0xOTEyMTUxNzUyMDZaFw0yMDEyMTQyMzUyMDZaMDExLzAtBgNVBAMeJgBBAEIARABVAEwATQBIAEUAVABBAFwAbQB1AGMAaABlAG4AZwBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPI5+1i2r5pOVaU+SBdkCoDBRv4PVhsllekvIrS9Uq9S7BH4P67gOEvRCPhsrOVRVKvMN/xCEDYZgReTpdY6wLGeVUWFZP95VM8z7VCSsX+AleH1+DzHC/G44fp6Sz0H+FT1ZHqHL1KZPFdeF3sZlNjdKs1wmCEHsOfURLQdOPjQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAKWNQlzSY/9Tv32gCxMoFH1jI9q6FARE11bVFob7384PVjXdtIXQ1J59nkBv0cvqf7OCLsgaTCKoCruLeW0IwzTmwSWspqzLuDx7Yd/Ddvgs5RZspXarI5tLtHl2KhQO2IzNQnBGR/wgwwtLd1qwFw8S2ThDM0Fphi+TGMLdAy8X</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
